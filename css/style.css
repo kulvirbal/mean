@@ -1,1 +1,97 @@
-nm
+* {
+    box-sizing: border-box;
+}
+body{
+	font-family: Verdana,sans-serif;
+}
+#mainHeader{
+	height: 100px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left,rgba(255,0,0,0.1),rgba(255,0,0,0.8)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(right,rgba(255,0,0,0.1),rgba(255,0,0,0.8)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(right,rgba(255,0,0,0.1),rgba(255,0,0,0.8)); /*Fx 3.6-15*/
+	background: linear-gradient(to right, rgba(255,0,0,0.1), rgba(255,0,0,0.8)); /*Standard*/
+}
+#mainMenu{
+	background-color: #4CAF50;
+	height: 50px;
+}
+#mainSection{
+	background-color: yellow;
+	padding: 10px;
+	float: left;
+	width: 75%;
+}
+aside{
+	color: red;
+	float: left;
+	width: 25%;
+	clear: both;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+aside li {
+    padding: 8px;
+    background-color: #33b5e5;    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+aside li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+aside li:hover {
+    background-color: #0099cc;
+}
+#footer{
+	clear: both;
+	background-color: teal;
+	height: 80px;
+}
+#mainMenu{
+	width: 100%
+}
+#mainMenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#mainMenu ul, #footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#footer ul li{
+	display: inline;
+	float: left;
+}
+#footer ul li a{
+	display: block;
+	padding: 10px 10px;
+}
+#footer ul li a:hover{
+	background-color: gray;
+} 
+#footer p{
+	clear:both;
+}
+#mainMenu ul li {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+#mainMenu ul li:hover {
+    background-color: #3e8e41;
+}
+
+#mainMenu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
