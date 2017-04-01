@@ -6,13 +6,6 @@ body{
     background-color: #f1f1f1;    
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
 }
-#mainHeader{ 
-}
-#mainMenu{
-	background-color: #4CAF50;
-	height: 50px;	
-    box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); 
-}
 #mainSection{
 	padding: 10px;
 	float: left;
@@ -42,24 +35,67 @@ aside li a{
 aside li:hover {
     background-color: #cccccc;
 }
+
+ul:not(.browser-default) {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul:not(.browser-default) li {
+    list-style-type: none;
+}
+a {
+    color: #039be5;
+    text-decoration: none;
+}
+.right {
+    float: right !important;
+}
+nav {
+    background-color: #ee6e73;
+    color: #fff;
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+}
+nav .nav-wrapper {
+    height: 100%;
+    position: relative;
+}
+nav .brand-logo {
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+}
+nav ul {
+    margin: 0;
+}
+nav ul li {
+    float: left;
+    padding: 0;
+    transition: background-color 0.3s ease 0s;
+}
+nav ul li.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+nav ul a {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 0 15px;
+    transition: background-color 0.3s ease 0s;
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 #footer{
 	clear: both;
 	background-color: teal;
 	height: 80px;	
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); 
-}
-#mainMenu{
-	width: 100%
-}
-#mainMenu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-#mainMenu ul, #footer ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 #footer ul li{
 	display: inline;
@@ -74,22 +110,4 @@ aside li:hover {
 } 
 #footer p{
 	clear:both;
-}
-#mainMenu ul li {
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    float: left;
-    cursor: pointer;
-}
-
-#mainMenu ul li:hover {
-    background-color: #3e8e41;
-}
-
-#mainMenu ul li a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 16px;
 }
