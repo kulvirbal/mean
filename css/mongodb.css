@@ -3,17 +3,16 @@
 }
 body{
 	font-family: Verdana,sans-serif;	
-    background-color: #f1f1f1;    
-	width:80%;
-	margin:auto;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24);
-	border-radius: 10px; 
+    background-image: url("../images/mongo.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
 }
 #mainSection{
 	padding: 10px;
 	float: left;
 	width: 75%;	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); 
 }
 aside{
 	color: red;
@@ -28,15 +27,15 @@ aside ul {
 }
 aside li {
     padding: 8px;
-    background-color: #f1f1f1;  
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); 
+    background-color: lightgreen;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.20), 0 1px rgba(0,0,0,0.30); 
 }
 aside li a{
 	text-decoration: none;
 	color: #000000;
 }
 aside li:hover {
-    background-color: #cccccc;
+    background-color: #ffffff;
 }
 
 ul:not(.browser-default) {
@@ -50,19 +49,15 @@ a {
     color: #039be5;
     text-decoration: none;
 }
-img.banner{
-	background-color: #fff;
-}
 .right {
     float: right !important;
 }
 nav {
     background-color: #ee6e73;
     color: #fff;
-    height: 56px;
+    height: 56px;	
     line-height: 56px;
-    width: 100%;	
-	border-radius: 10px 10px 0 0;
+    width: 100%;
 }
 nav .nav-wrapper {
     height: 100%;
@@ -98,23 +93,23 @@ nav ul a {
 nav ul a:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
-figcaption{
-	text-align: center;
-	font-weight: 700;
+#footer{
+	clear: both;
+	background-color: green;
+	height: 80px;	
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); 
 }
-code img{
-	border-radius: 10px;
+#footer ul li{
+	display: inline;
+	float: left;
 }
-img.logo{
-	background-color: #c8c8c8;
-    border-radius: 10px 10px 0 0;
-    width: 11%;
+#footer ul li a{
+	display: block;
+	padding: 10px 10px;
 }
-footer {
-	padding: 1em;
-    color: #fff;
-    background-color: #ee6e73;
-    clear: left;
-    text-align: center;
-	border-radius: 0 0 10px 10px;
+#footer ul li a:hover{
+	background-color: gray;
+} 
+#footer p{
+	clear:both;
 }
