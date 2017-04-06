@@ -102,6 +102,9 @@ figcaption{
 	text-align: center;
 	font-weight: 700;
 }
+code img{
+	border-radius: 10px;
+}
 footer {
 	padding: 1em;
     color: #fff;
