@@ -6,11 +6,14 @@ body{
     background-color: #f1f1f1;    
 	width:80%;
 	margin:auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24);
+	border-radius: 10px; 
 }
 #mainSection{
 	padding: 10px;
 	float: left;
 	width: 75%;	
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24);
 }
 aside{
 	color: red;
@@ -26,7 +29,7 @@ aside ul {
 aside li {
     padding: 8px;
     background-color: #f1f1f1;  
-    /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px rgba(0,0,0,0.24); 
 }
 aside li a{
 	text-decoration: none;
@@ -94,6 +97,10 @@ nav ul a {
 }
 nav ul a:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+figcaption{
+	text-align: center;
+	font-weight: 700;
 }
 footer {
 	padding: 1em;
